@@ -174,8 +174,8 @@ body{
 
 .img2{
     border-radius: 220px;
-    width: 70%;
-    height: 120%;
+    width: 75%;
+    height: 115%;
     /* display: block; */
     margin-top: 50px;
     z-index: 50;
@@ -387,6 +387,20 @@ body{
     font-size: 24px;
     text-align: center;
     color: #003B60;
+    border: 1px solid #003B60;
+    width: 50%;
+    margin: auto;
+    font-weight: 700;
+}
+.instruction-details2{
+    font-size: 24px;
+    text-align: center;
+    color: #003B60;
+    border: 1px solid #003B60;
+    width: 30%;
+    margin: auto;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 .price-img {
@@ -397,7 +411,8 @@ body{
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     position: absolute;
-    left: 25%;
+    left: 27%;
+    margin-top: 20px;
   }
 
   .price-tag{
