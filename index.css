@@ -183,8 +183,6 @@ body{
 
 
 
-
-
 .our-commitment{
     font-size: 24px;
     width: 1300px;
@@ -228,14 +226,11 @@ body{
 
 .background-container {
     background-image: url("./images/brand-name.png");
-    background-size: cover; /* Adjust background sizing */
-    background-position: center center; /* Adjust background position */
+    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
     width: 100%;
     height: 1145px; 
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
   }
 
   .image-text{
@@ -282,4 +277,455 @@ body{
     margin-top: 50px;
     margin-left: 40%;
     padding: 20px 40px 20px 40px;
+  }
+
+
+  /* card section start  */
+
+  .card-section{
+    width: 1920px;
+    height: 1172px;
+    background-color: #F0F9FF;
+    padding-top: 100px;
+  }
+
+  .card{
+    background-color: white;
+    padding: 10px;
+    /* height: 480px; */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .card-layout{
+    width: 1350px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 100px;
+    border-bottom: 2px dashed #012A4A;
+  }
+
+  .card img{
+    width: 100%;
+    height: 70%;
+  }
+
+  .card-Button{
+    height: 45px;
+    padding: 20px 30px 20px 30px;
+    background-color: #012A4A;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .classification-section{
+    width: 1180px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .title{
+    font-size: 44px;
+    text-align: center;
+    color: #003B60;
+    font-weight: 800;
+  }
+  .classification-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+  }
+
+  .video-section{
+    width: 1500px;
+    margin: auto;
+    height: 788px;
+    margin-top: 50px;
+    
+  }
+
+  .video{
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid #003B60;
+ 
+  }
+
+/* card section end  */
+
+
+
+/* instruction start  */
+
+.instruction{
+    width: 1920px;
+    margin: auto;
+    margin-top: 600px;
+}
+
+.instruction-container{
+    height: 700px;
+    
+}
+
+.instruction-title{
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    color: #003B60;
+}
+.instruction-details{
+    font-size: 24px;
+    text-align: center;
+    color: #003B60;
+}
+
+.price-img {
+    background-image: url("./images/price.png");
+    width: 902px;
+    margin: auto;
+    height: 696px; 
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left: 25%;
+  }
+
+  .price-tag{
+    font-size: 44px;
+    padding-top: 250px;
+    color: white;
+    padding-left: 35%;
+    margin: 0;
+    font-weight: 800;
+  }
+
+  .delivery{
+    padding-left: 38%;
+    color: white;
+    font-size: 24px;
+  }
+
+  .order-button{
+    margin-left: 35%;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .review{
+    width: 1920px;
+    height: 500px;
+    background-color:  #F0F9FF;
+    padding-top: 400px;
+  }
+
+  .review-section{
+    width: 1292px;
+    margin: auto;
+  }
+
+  .review-card-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .review-card{
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 20px;
+    color: #012A4A;
+  }
+  .review-card:hover{
+    background-color: #003B60;
+    color: white;
+  }
+
+  .review-card img{
+    position: absolute;
+    width: 30%;
+    top: -70px;
+    margin-left: 35%;
+    /* margin-bottom: 100%; */
+  }
+
+  .card-details{
+    padding-top: 50px;
+    text-align: center;
+  }
+  .reviewer-name{
+    font-size: 44px;
+    margin: 0;
+    font-weight: 800;
+   
+    
+  }
+
+
+  .reviewer-location{
+    font-size: 16px;
+    border-bottom: 2px dashed rgb(83, 104, 64);
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .review-details{
+    font-size: 18px;
+  }
+
+  .arrow{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .review-arrow{
+    border: 1px solid #012A4A;
+    border-radius: 100%;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+  }
+
+  .review-arrow:hover{
+    background-color: #003B60;
+    color: white;
+  }
+/* instruction end */
+
+
+
+/* order form start  */
+.order-form {
+    background-image: url("./images/from-background.png");
+    width: 1920px;
+    margin: auto;
+    height:1000px; 
+  }
+
+.order-form-title{
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.form-layout{
+    /* border: 2px solid red; */
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-title{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.form-container{
+    /* border: 2px double greenyellow; */
+    width: 100%;
+}
+
+.form-section input{
+    width: 97%;
+    padding: 10px;
+    opacity: 0.5;
+    border: 1px solid white;
+    font-size: 24px;
+    color: black;
+    margin-top: 30px;
+}
+
+.delivery-system{
+    background-color: white;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+}
+
+
+.delivery-title{
+    font-size:44px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.check-box-title{
+    font-size: 20px;
+}
+
+.check-box input{
+    margin: 20px;
+}
+
+.payment-footer{
+    padding: 20px;
+    background-color: #003B60;
+    font-size: 24px;
+    color: white;
+    border-bottom-right-radius: 50px;
+}
+
+.order-details-card{
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+.order-details-title{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    color: white;
+}
+.order-details{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.order-details img{
+    width: 20%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.product-name{
+    width: 20%;
+}
+
+.order-subtotal{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+.confirm-button{
+    padding: 20px 190px 20px 190px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.order-banner{
+    width: 1290px;
+    background-color: #003B60;
+    height: 277px;
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 18%;
+    position: absolute;
+}
+
+.order-banner-layout{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-title{
+    font-size: 44px;
+    color: white;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+.line{
+    width: 10%;
+    margin-left: 50px;
+    border: 1px solid yellow;
+}
+
+.link{
+    font-size: 18px;
+    color: white;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.logo2 img{
+    width: 50%;
+    margin-left: 20%;
+}
+
+
+.order-request{
+    font-size: 24px;
+    color: yellow;
+    font-weight: 800;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.order-number{
+    font-size: 44px;
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+.request-card{
+    margin-top: 50px;
+}
+
+
+
+.footer{
+    background-image: url("./images/footer.png");
+    width: 1920px;
+    height: 400px;
+    margin-top: 155px;
+   
+  }
+
+  .social-media{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-line{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .bold{
+    font-weight: 600;
+    color: yellow;
   }
