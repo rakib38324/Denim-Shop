@@ -33,18 +33,92 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+ 
 
+
+
+
+/* banner left side  */
 .button-top{
-    font-size: 20px;
-    width: 50%;
+    font-size: 24px;
+    width: 400px;
     padding: 20px;
     background-color: #012A4A;
     color: white;
-    font-weight:700;
+    font-weight:400;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 
 .banner-title{
-    font-size: 50px;
+    font-family: "Li Niladri Rongtuli Unicode", Arial, sans-serif;
+  font-size: 50px;
+  font-weight:800;
+  line-height: 82px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #003B60;
+}
+
+.price{
+    font-size: 24px;
+    color: #012A4A;
+    /* text-decoration: line-through; */
+}
+
+.previous-price{
+    font-size: 24px;
+    color: #012A4A;
+    opacity: 50%;
+    text-decoration:line-through
+}
+
+.new-price{
+    font-size: 56px;
+    font-weight: 700;
+    color: #012A4A;
+}
+
+.button-buttom{
+    font-size: 24px;
+    padding: 20px;
+    background-color: #F0E615;
+    color: #012A4A;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    border: 0;
+}
+
+.right-arrow{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.order-condition{
+    font-size: 30px;
+    color: #012A4A;
+    margin-top: 50px;
+}
+
+
+
+
+/* banner right side  */
+
+.background-style{
+    /* padding-left: 10px; */
+    border: 2px solid yellow;
+    /* width: 50%; */
+}
+
+.bg-style{
+    border: 2px solid red;
+    width: 90%;
+    position: relative;
+    /* padding: 20px; */
+}
+
+.img{
+    position: absolute;
 }
