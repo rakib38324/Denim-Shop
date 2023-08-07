@@ -261,6 +261,7 @@ body{
     background-color: white;
     border-radius: 100%;
     margin: 0;
+    font-weight: 800;
 }
 
 
@@ -345,7 +346,7 @@ body{
   }
 
   .video-section{
-    width: 1500px;
+    width: 1400px;
     margin: auto;
     height: 788px;
     margin-top: 50px;
